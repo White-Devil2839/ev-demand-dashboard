@@ -13,11 +13,6 @@ __pycache__/
 # Streamlit
 .streamlit/secrets.toml
 
-# Model artifacts
-saved_models/
-*.joblib
-*.pkl
-
 # Logs
 *.log
 

@@ -1,0 +1,74 @@
+EV INFRASTRUCTURE PLANNING GUIDELINES
+======================================
+Source: Urban EV Infrastructure Best Practices (2024)
+
+SECTION 1: CHARGER DENSITY STANDARDS
+Recommended charger density is 1 Level 2 charger per 20 registered EVs in a zone.
+For high-demand urban zones exceeding 50 kWh average hourly load, deploy at minimum
+1 DC Fast Charger (50 kW) per 500 EVs. Mixed fleets require a ratio of 70% AC Level 2
+to 30% DC Fast. Rural zones may reduce density to 1 charger per 40 EVs. Charger
+clusters of 4 to 8 units improve grid efficiency and reduce cabling costs by 30%.
+
+SECTION 2: GRID CAPACITY THRESHOLDS
+A zone's peak charging demand must not exceed 80% of the substation's rated capacity.
+Zones with average demand above 30 kWh per hour require dedicated transformer upgrades.
+Grid connection should be sized at 1.3x peak load to accommodate demand growth over
+5 years. Three-phase supply is mandatory for DC Fast Chargers rated above 22 kW.
+Load factor should remain below 0.75 for residential zones and 0.85 for commercial zones.
+
+SECTION 3: PEAK LOAD MANAGEMENT
+Smart charging systems must implement time-of-use (TOU) pricing to shift load away
+from peak hours (typically 17:00 to 21:00). Dynamic load balancing reduces peak draw
+by 20 to 35%. On-site battery energy storage (BESS) of at least 100 kWh is recommended
+for zones with peak demand exceeding 150 kWh. Vehicle-to-Grid (V2G) systems can
+reduce net peak load by up to 25% in high-density residential zones.
+
+SECTION 4: ZONING AND REGULATORY REQUIREMENTS
+EV charger installations must comply with local building codes and NEC Article 625.
+Minimum setback from property boundaries is 1.5 meters. Accessibility compliance
+(ADA) mandates one accessible charger per 25 installed units. Environmental impact
+assessments are required for installations above 500 kW capacity. Permits typically
+require 30 to 90 days; fast-track permitting programs available in 38 states.
+
+SECTION 5: DEMAND RESPONSE INTEGRATION
+Zones should enroll in utility demand response programs to receive incentives for
+curtailing charging during grid stress events. Automated demand response (ADR) systems
+reduce peak demand charges by 15 to 25%. Aggregators can pool distributed EV loads
+to participate in wholesale electricity markets. Forecast-based pre-charging strategies
+reduce morning peak demand by scheduling overnight charging more efficiently.
+
+SECTION 6: CHARGER TYPE SELECTION CRITERIA
+Level 1 (1.4 kW): Suitable for overnight residential with 8 to 12 hour dwell times.
+Level 2 AC (7.2 kW to 22 kW): Optimal for workplace, retail, and public parking.
+DC Fast Charger (50 kW to 350 kW): Required for highway corridors and high-turnover
+commercial sites. Ultra-fast chargers (150 kW+) needed when average dwell time is
+under 20 minutes. Bidirectional chargers support V2G but cost 2 to 3x standard units.
+
+SECTION 7: SAFETY AND RELIABILITY STANDARDS
+All chargers must be UL Listed and comply with SAE J1772, CHAdeMO, or CCS standards.
+Ground fault circuit interrupter (GFCI) protection is mandatory. Surge protection
+devices rated for the local lightning exposure category are required. Charger uptime
+SLA of 97% is the industry standard for public infrastructure. Redundant communication
+systems (4G/LTE + Wi-Fi) ensure continuous payment and monitoring capability.
+
+SECTION 8: FINANCIAL BENCHMARKS AND ROI
+Average cost per Level 2 port including installation: $3,000 to $7,500.
+DC Fast Charger installed cost: $30,000 to $80,000.
+Expected payback period for high-traffic commercial sites: 3 to 5 years.
+Federal tax credit (30C) covers 30% of equipment and installation costs up to $100,000.
+Utility incentive programs offset 10 to 40% of infrastructure costs in most states.
+Revenue per charger averages $8,000 to $25,000 annually at high-utilization sites.
+
+SECTION 9: SITE SELECTION CRITERIA
+Priority sites include retail centers (dwell time 45-90 min), workplaces (6-9 hours),
+multifamily housing (8-12 hours overnight), and transit hubs (20-60 min). Sites must
+have existing electrical service of at least 200A single phase or 100A three phase.
+Proximity to distribution transformer (within 50 meters) reduces installation cost
+significantly. Avoid sites with poor cellular coverage unless fiber backhaul available.
+
+SECTION 10: FUTURE-PROOFING AND SCALABILITY
+Install conduit and panel capacity for 2x projected charger count to support expansion.
+Specify "charger-ready" infrastructure (conduit, wiring, panel) before full deployment.
+Select networked chargers with open standards (OCPP 1.6/2.0) to avoid vendor lock-in.
+Plan for 10% annual demand growth in urban zones and 20% in high-growth suburban zones.
+Microgrids with solar-plus-storage reduce long-term utility dependency by 30 to 50%.
